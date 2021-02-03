@@ -13,6 +13,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(company-preview ((t (:background "DodgerBlue4" :foreground "wheat"))))
+ '(company-preview-common ((t (:inherit company-preview :foreground "seashell2"))))
  '(company-tooltip ((t (:background "RoyalBlue4" :foreground "white"))))
  '(company-tooltip-annotation ((t (:foreground "cornflower blue"))))
  '(company-tooltip-common ((t (:foreground "gray"))))
@@ -85,4 +87,5 @@
                             (add-hook 'before-save-hook
                                       'elpy-format-code nil t)))
 
+(setq case-fold-search nil) ; make searches case sensitive
 ;; User-Defined init.el ends here
