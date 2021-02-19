@@ -15,6 +15,8 @@
  ;; If there is more than one, they won't work right.
  '(company-preview ((t (:background "DodgerBlue4" :foreground "wheat"))))
  '(company-preview-common ((t (:inherit company-preview :foreground "seashell2"))))
+ '(company-scrollbar-bg ((t (:background "midnight blue"))))
+ '(company-scrollbar-fg ((t (:background "cornflower blue"))))
  '(company-tooltip ((t (:background "RoyalBlue4" :foreground "white"))))
  '(company-tooltip-annotation ((t (:foreground "cornflower blue"))))
  '(company-tooltip-common ((t (:foreground "gray"))))
