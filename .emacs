@@ -91,7 +91,7 @@
 
 (setq case-fold-search nil) ; make searches case sensitive
 
-;; print with GUI (run sudo apt install gtklp)
+;; print with GUI
 (setq lpr-command "gtklp")
 (setq ps-lpr-command "gtklp")
 ;; User-Defined init.el ends here
